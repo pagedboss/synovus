@@ -1,0 +1,154 @@
+/*!
+ * ExtensionVersion: 4.16.90
+ *  Mon Nov 27 2024 19:18:16 GMT+0000 (Coordinated Universal Time)
+ */
+/* Synovus Color Palette */
+/* Synovus Color Palette */
+body[class$="self-service-feedback"] .surveyWrapper {
+  margin-right: 25%;
+  margin-left: 25%;
+  height: 1400px;
+}
+@media (max-width: 767px) {
+  body[class$="self-service-feedback"] .surveyWrapper {
+    margin-right: 0%;
+    margin-left: 0%;
+    margin-top: 70px;
+    border-top: 1px solid #c5c4c4;
+  }
+}
+body[class$="self-service-feedback"] button.scroll-to-top-btn {
+  display: none;
+}
+.survey-open #survey {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  background-color: transparent;
+}
+#mcxSurveyDialog {
+  position: fixed;
+  z-index: 2000;
+  top: 0;
+  right: 0;
+  width: 350px;
+  height: 100%;
+}
+#mcxSurveyWrapper {
+  position: absolute;
+  top: 0px;
+  right: 0px;
+  padding: 0px;
+  background: #f2f2f2;
+  box-shadow: 0px -1px 14px 0px rgba(207, 207, 207, 0.5);
+  overflow-y: scroll;
+  overflow-x: hidden;
+  -webkit-overflow-scrolling: touch;
+  width: 430px;
+  height: 100%;
+  background-color: #fff;
+  z-index: 9999;
+  -webkit-animation: slide 0.5s forwards;
+  -webkit-animation-delay: 2s;
+  animation: slide 0.5s forwards;
+  animation-delay: 1s;
+}
+.mcxSurveyCloseWrapperClass {
+  position: absolute;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBpZD0iV29yZG1hcmsiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgdmlld0JveD0iMCAwIDQ0NC4zNCA3OS44NiI+PGRlZnM+PHN0eWxlPi5jbHMtMXtmaWxsOiNlNTIxMjc7fTwvc3R5bGU+PC9kZWZzPjx0aXRsZT5zeW5vdnVzLWxvZ288L3RpdGxlPjxwYXRoIGNsYXNzPSJjbHMtMSIgZD0iTTQ1Ny41LDEzMi41M2MxMy45MiwwLDIzLjQyLTcuNDMsMjMuNDItMTkuODUsMC0xMS42Ni05LjMxLTE1LjQzLTE4LjcyLTE4LjE1LTEwLjcyLTMuMS0xNS40My00LjYxLTE1LjQzLTExLjU3LDAtNiw0LjMzLTkuNTksMTEuOTUtOS41OVM0NzEsNzYuODUsNDczLjEyLDg0LjU2aDRWNzEuMzlBNDQuODksNDQuODksMCwwLDAsNDU5LDY3LjYzYy0xMy4yNiwwLTIyLjIsNy4xNS0yMi4yLDE5LjE5LDAsMTEuNzYsOS41OSwxNS4zMywxOC44MSwxOC4wNiwxMC42MywzLjEsMTUuNDMsNC43LDE1LjQzLDExLjY2LDAsNi40LTQuODksMTAuMTYtMTMuMTcsMTAuMTYtOC40NywwLTE0LTQuMTQtMTYuNDYtMTMuMDdoLTR2MTQuMTFhNDIuNTEsNDIuNTEsMCwwLDAsMjAuMTMsNC44TTM1OCw4My40M2MzLjI5LTcuNDMsNS4zNi05LjY5LDkuNS05LjY5SDM2OGM0LDAsNS42NCwyLjE2LDUuNjQsNS44M3YyOGMwLDE1LjgsMTEsMjQuOTMsMjguNiwyNC45MywxNC42NywwLDI0LjU1LTkuMjIsMjQuNTUtMjQuMTdWODIuNDljMC01Ljc0LDItNy43MSw2LjMtOC4zN2wxLjg4LS4yOFY2OS41MUg0MTEuNzl2NC4zM2wxLjg4LDAuMjhjNC4zMywwLjY2LDYuMywyLjYzLDYuMyw4LjM3djI1Ljg3YzAsMTEuNDgtNy4wNSwxNy40LTE3LDE3LjRzLTE3LTUuOTMtMTctMTcuNFY3OS41OGMwLTMuNjcsMS4zMi01LjE3LDQuNDItNS40NmwyLjgyLS4yOFY2OS41MUgzNDQuNTN2NC4zM0wzNDYuNiw3NGM1LjA4LDAuNDcsNi42OCwzLjM5LDQuNTIsOC40N2wtMTQuNzcsMzQuMzNMMzIwLjY0LDgwLjE0Yy0xLjUxLTMuNDgsMC01LjY0LDQuMjMtNmwzLS4yOFY2OS41MUgyOTguMDZ2NC4zM0wyOTkuOTUsNzRjMy43NiwwLjM4LDUsMS4zMiw3LjQzLDYuODdsMjIuMzksNTAuMzJoNy4wNVpNMjQ4LjIxLDEwMGMwLTE0Ljg2LDYuNC0yNi41MywyMC4zMi0yNi41MywxMy43MywwLDIwLjQxLDExLjg1LDIwLjQxLDI2Ljcxcy02LjQ5LDI2LjQzLTIwLjQxLDI2LjQzYy0xMy43MywwLTIwLjMyLTExLjc2LTIwLjMyLTI2LjYybS0xMy4xNy4xOWMwLDE4LjYyLDEzLjkyLDMyLjM2LDMzLjQ5LDMyLjM2czMzLjU4LTEzLjgzLDMzLjU4LTMyLjU1LTE0LTMyLjM2LTMzLjU4LTMyLjM2UzIzNSw4MS40NiwyMzUsMTAwLjE4TTE1Niw4Mi44N2M0LjQyLTcuMDUsNi43Ny05LjEyLDExLjY2LTkuMTJoMC41NmM0LjYxLDAsNi41OSwyLjE2LDYuNTksNS44M3YzOC43NWMwLDUuMjctMiw3LjA1LTYuNCw3LjcxbC0xLjg4LjI4djQuMzNIMTg5Ljl2LTQuMzNMMTg4LDEyNmMtNC40Mi0uNjYtNi40LTIuNDUtNi40LTcuNzFWODQuNzVsMzkuMTMsNDYuMzdoNy4wNVY4MS43NGMwLTUuMTcsMi03LDYuMy03LjYybDEuODgtLjI4VjY5LjUxSDIxMi43NXY0LjMzbDEuODgsMC4yOGM0LjMzLDAuNjYsNi4zLDIuNDUsNi4zLDcuNjJWMTEyLjVsLTM1LjM3LTQzaC00MnY0LjMzTDE0NS41LDc0YzUuMDgsMC40Nyw2LjU4LDIuOTIsMy40OCw3LjgxTDEzOC4wNiw5OS40MiwxMjYuMjEsODBjLTIuMDctMy4zOS0uNzUtNS40NiwzLjItNS44M2wyLjgyLS4yOFY2OS41MUgxMDIuNnY0LjMzTDEwNC40OCw3NGMzLjc2LDAuMzgsNC43LDEuNiw4LDYuNzdsMTYuMjgsMjUuODd2MTMuNDVjMCw0LTEuNjksNS41NS01LDUuOTNsLTIuODIuMjh2NC4zM2gyNy43NXYtNC4zM2wtMi44Mi0uMjhjLTMuMi0uMjgtNC44OS0xLjg4LTQuODktNS45M1YxMDYuNjdaTTc2Ljc0LDEzMi41M2MxNi40NiwwLDI3LjM3LTguODQsMjcuMzctMjQsMC0xNC0xMS0xOC4yNS0yMi41OC0yMS45Mi0xMi4yMy0zLjg2LTE5LjM4LTYuNC0xOS4zOC0xNS4zMywwLTcuNTMsNS4xNy0xMi40MiwxNC41OC0xMi40MnMxNC4yLDQsMTcuNjgsMTVoNC4xNFY1N2MtNS4zNi0yLjU0LTEyLjMyLTQuMzMtMjEuMzUtNC4zMy0xNS43MSwwLTI1Ljc3LDguNTYtMjUuNzcsMjNTNjIuNjMsOTQuNDQsNzQuMiw5OC4xMWMxMiwzLjc2LDE5LjA5LDYsMTkuMDksMTQuNzcsMCw4LjQ3LTUuNDYsMTMuNDUtMTUuOSwxMy40NS0xMC45MSwwLTE2Ljg0LTUuMjctMjAuNTEtMTcuNzhINTIuNjZWMTI2LjhjNSwzLDEzLjY0LDUuNzQsMjQuMDgsNS43NCIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxLjQ0IC01Mi42NykiLz48cGF0aCBjbGFzcz0iY2xzLTEiIGQ9Ik00OTMuODQsNzkuNjVBNi42MSw2LjYxLDAsMSwxLDQ5NS43Nyw3NSw2LjM1LDYuMzUsMCwwLDEsNDkzLjg0LDc5LjY1Wk00ODUuMTYsNzFhNS40OSw1LjQ5LDAsMCwwLTEuNjUsNCw1LjU2LDUuNTYsMCwwLDAsMS42NCw0LDUuNjYsNS42NiwwLDAsMCw4LDAsNS43NCw1Ljc0LDAsMCwwLDAtOC4wNkE1LjY1LDUuNjUsMCwwLDAsNDg1LjE2LDcxWk00ODksNzEuMzNhNS41Myw1LjUzLDAsMCwxLDIsLjI2LDEuOCwxLjgsMCwwLDEsMS4xMiwxLjg0LDEuNTgsMS41OCwwLDAsMS0uNzEsMS40MywyLjc0LDIuNzQsMCwwLDEtMSwuMzUsMS43NiwxLjc2LDAsMCwxLDEuMjQuNzFBMiwyLDAsMCwxLDQ5Miw3N3YwLjUzcTAsMC4yNSwwLC41NGExLjE3LDEuMTcsMCwwLDAsLjA2LjM4bDAsMC4wOUg0OTFsMC0uMDcsMC0uMDgsMC0uMjNWNzcuNjFhMS43NywxLjc3LDAsMCwwLS42OC0xLjY2LDMuMDgsMy4wOCwwLDAsMC0xLjQyLS4yM2gtMXYyLjg1aC0xLjI4VjcxLjMzSDQ4OVptMS4zOCwxLjE0YTMuMzMsMy4zMywwLDAsMC0xLjU1LS4yN2gtMS4wOXYyLjYyaDEuMTVhMy40OCwzLjQ4LDAsMCwwLDEuMjItLjE2QTEuMywxLjMsMCwwLDAsNDkwLjQyLDcyLjQ3WiIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoLTUxLjQ0IC01Mi42NykiLz48L3N2Zz4=);
+  background-repeat: no-repeat;
+  background-position: 10px 15px;
+  background-size: 100px 20px;
+  background-color: white;
+  width: 430px;
+  height: 40px;
+}
+#mcxSurveyClose {
+  background-color: transparent;
+  background-image: url(data:image/svg+xml;base64,PHN2ZyBhcmlhLWhpZGRlbj0idHJ1ZSIgZGF0YS1wcmVmaXg9ImZhbCIgZGF0YS1pY29uPSJ0aW1lcy1jaXJjbGUiIGNsYXNzPSJzdmctaW5saW5lLS1mYSBmYS10aW1lcy1jaXJjbGUgZmEtdy0xNiBmYS0yeCAiIHJvbGU9ImltZyIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB2aWV3Qm94PSIwIDAgNTEyIDUxMiIgY29sb3I9IiI+PHBhdGggZmlsbD0iY3VycmVudENvbG9yIiBkPSJNMjU2IDhDMTE5IDggOCAxMTkgOCAyNTZzMTExIDI0OCAyNDggMjQ4IDI0OC0xMTEgMjQ4LTI0OFMzOTMgOCAyNTYgOHptMCA0NjRjLTExOC43IDAtMjE2LTk2LjEtMjE2LTIxNiAwLTExOC43IDk2LjEtMjE2IDIxNi0yMTYgMTE4LjcgMCAyMTYgOTYuMSAyMTYgMjE2IDAgMTE4LjctOTYuMSAyMTYtMjE2IDIxNnptOTQuOC0yODUuM0wyODEuNSAyNTZsNjkuMyA2OS4zYzQuNyA0LjcgNC43IDEyLjMgMCAxN2wtOC41IDguNWMtNC43IDQuNy0xMi4zIDQuNy0xNyAwTDI1NiAyODEuNWwtNjkuMyA2OS4zYy00LjcgNC43LTEyLjMgNC43LTE3IDBsLTguNS04LjVjLTQuNy00LjctNC43LTEyLjMgMC0xN2w2OS4zLTY5LjMtNjkuMy02OS4zYy00LjctNC43LTQuNy0xMi4zIDAtMTdsOC41LTguNWM0LjctNC43IDEyLjMtNC43IDE3IDBsNjkuMyA2OS4zIDY5LjMtNjkuM2M0LjctNC43IDEyLjMtNC43IDE3IDBsOC41IDguNWM0LjYgNC43IDQuNiAxMi4zIDAgMTd6Ij48L3BhdGg+PC9zdmc+);
+  background-position: 100% 0;
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  cursor: pointer;
+  margin-top: 7px;
+  padding: 10px 0;
+  position: absolute;
+  right: 26px;
+  text-align: center;
+  top: 5px;
+  width: 20px;
+  z-index: 2003;
+}
+#mcxSurveyWrapper iframe {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+#mcxNoButton {
+  display: none;
+}
+#mcxYesButton {
+  color: #fff !important;
+}
+#mcxYesButton {
+  background-color: #e61e25;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: -1px -1px 2px #969696;
+  cursor: pointer;
+  display: inline-block;
+  font-size: 1rem;
+  font-family: sans-serif;
+  padding: 0 10px;
+  position: fixed;
+  right: -53px;
+  top: 225px;
+  transform: rotate(270deg);
+  z-index: 2001;
+  height: 24px;
+  width: 130px;
+}
+#mcxYesButton .btn-close {
+  color: #fff !important;
+}
+#mcxYesButton .btn-close {
+  border: 0;
+  position: relative;
+  top: -22px;
+  right: -85px;
+  background-color: transparent;
+  margin-left: 1px;
+  width: 30px;
+  min-height: 24px;
+  padding: 0;
+}
+#mcxYesButton .btn-close:hover {
+  opacity: 0.8;
+}
+#mcxYesButton #mcx-text {
+  width: 75%;
+}
+#mcxYesButton #mcx-text:hover {
+  opacity: 0.8;
+}
+body.accounts-overview #mcxYesButton {
+  top: 195px;
+}
+body[class^='pre-auth'] #mcxYesButton,
+body[class^='post-auth'] #mcxYesButton,
+body[class^='self-service-feedback'] #mcxYesButton {
+  display: none;
+}
+body[class^='pre-auth'] #mcxSurveyDialog,
+body[class^='post-auth'] #mcxSurveyDialog,
+body[class^='self-service-feedback'] #mcxSurveyDialog {
+  display: none !important;
+}
+@media (max-width: 839px) {
+  #mcxYesButton {
+    display: none;
+  }
+}
+/* Smartphones (portrait and landscape) ----------- */
+

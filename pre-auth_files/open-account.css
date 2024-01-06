@@ -1,0 +1,33 @@
+/*!
+ * ExtensionVersion: 4.16.90
+ *  Mon Nov 27 2024 19:18:16 GMT+0000 (Coordinated Universal Time)
+ */
+/* Synovus Color Palette */
+/* Synovus Color Palette */
+.open-account-container1 {
+  grid-column-start: 1;
+  grid-column-end: none;
+}
+@media (min-width: 768px) {
+  .open-account-container1.mobile {
+    display: none;
+  }
+}
+.open-account-container1 h3 {
+  font-weight: 300;
+  margin: 0;
+  font-size: 1.125rem;
+}
+.open-account-container1 .card {
+  background-color: #fff;
+  color: #1e1e1e;
+  border-radius: 0.1875rem;
+  box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.2);
+}
+.open-account-container1 .card-content {
+  padding: 1rem 1.5rem;
+}
+.open-account-container1 .account-opening-items {
+  margin-top: 1rem !important;
+}
+

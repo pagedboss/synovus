@@ -1,0 +1,241 @@
+/*!
+ * ExtensionVersion: 4.16.90
+ *  Mon Nov 27 2024 19:18:16 GMT+0000 (Coordinated Universal Time)
+ */
+/* Synovus Color Palette */
+/* Synovus Color Palette */
+._base-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._base-button {
+  box-shadow: none;
+  padding: 7px 15px;
+}
+._primary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._primary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #0094d1;
+  background-color: #0094d1;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 40px;
+}
+._primary-button:hover {
+  background: #0094d1;
+  background-color: #007bad;
+  color: #fff;
+}
+._primary-button:disabled {
+  background-color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+._primary-button:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+._secondary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._secondary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+._secondary-button:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+._secondary-button:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+._secondary-button:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+._tertiary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+._tertiary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+._tertiary-button:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+._tertiary-button:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+._tertiary-button:disabled {
+  color: #afafaf !important;
+}
+._tertiary-button2 {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._tertiary-button2 {
+  box-shadow: none;
+  padding: 7px 15px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #1e1e1e;
+  border-radius: 3px;
+  color: #1e1e1e;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+._tertiary-button2:hover:not(.disabled) {
+  border: 1px solid #646464;
+  background: #fff;
+  background-color: #fff;
+  color: #646464;
+}
+._tertiary-button2:disabled {
+  color: #afafaf !important;
+  border: 1px solid #afafaf !important;
+}
+._makeItRound {
+  border-radius: 50px;
+}
+.sso-link {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.sso-link {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #0094d1;
+  background-color: #0094d1;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 40px;
+  border: 1px solid #1e1e1e;
+}
+.sso-link:hover {
+  background: #0094d1;
+  background-color: #007bad;
+  color: #fff;
+}
+.sso-link:disabled {
+  background-color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.sso-link:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+.mini-account-details.flex-md-row {
+  flex-direction: column;
+  margin-bottom: 5px;
+}
+.mini-account-details div:first-of-type {
+  width: 65%;
+}
+.mini-account-details .account-manage button {
+  margin: 5px;
+}
+@media (min-width: 1200px) {
+  .mini-account-details div:first-of-type {
+    width: 70%;
+  }
+}
+@media (max-width: 991px) {
+  .mini-account-details {
+    padding: 1rem 1.5rem !important;
+  }
+  .mini-account-details .sso-wrapper {
+    text-align: center;
+  }
+  .mini-account-details .justify-content-md-start {
+    justify-content: space-between;
+  }
+  .account-manage {
+    flex-flow: column-reverse;
+  }
+  .account-manage .account-number {
+    display: none !important;
+  }
+}
+.sso-swap.manage-account-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.sso-swap.manage-account-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+  display: inline-block;
+}
+.sso-swap.manage-account-button:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+.sso-swap.manage-account-button:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.sso-swap.manage-account-button:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+.t-s2-acct-i-d,
+.t-s2-cust-i-d,
+.status-codes {
+  display: none;
+}
+

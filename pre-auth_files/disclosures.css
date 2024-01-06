@@ -1,0 +1,121 @@
+/*!
+ * ExtensionVersion: 4.16.90
+ *  Mon Nov 27 2024 19:18:16 GMT+0000 (Coordinated Universal Time)
+ */
+/* Synovus Color Palette */
+/* Synovus Color Palette */
+@keyframes highlighter {
+  0% {
+    background-color: #f2f2f2;
+  }
+  50% {
+    background-color: #ffffdd;
+  }
+  100% {
+    background-color: #f2f2f2;
+  }
+}
+.disclosure p {
+  padding: 10px 5px;
+  text-align: justify;
+}
+.disclosure p.focus {
+  background-color: #f2f2f2;
+  border-radius: 10px;
+  border: 1px solid #e1e1e1;
+}
+@keyframes hl {
+  0% {
+    background-color: #f2f2f2;
+    border: #e1e1e1;
+  }
+  100% {
+    background-color: transparent;
+    background-color: initial;
+    border: medium none currentColor;
+    border: initial;
+  }
+}
+.disclosure-marker {
+  color: #e61e25;
+  font-size: 20px;
+  position: relative;
+  display: inline-block;
+}
+.disclosure-marker:hover,
+.disclosure-marker:visited,
+.disclosure-marker:focus {
+  color: #e61e25;
+  text-decoration: none;
+}
+.disclosure-marker:hover .tooltiptext {
+  visibility: visible;
+  opacity: 1;
+}
+.disclosure-marker .tooltiptext {
+  font-size: 0.75rem;
+  visibility: hidden;
+  width: 165px;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  padding: 5px 0;
+  border-radius: 6px;
+  /* Position the tooltip text */
+  position: absolute;
+  top: -15px;
+  left: 20px;
+  z-index: 1;
+  /* Fade in tooltip - takes 1 second to go from 0% to 100% opac: */
+  opacity: 0;
+  transition: opacity 1s;
+}
+.disclosure-marker .tooltiptext::after {
+  content: ' ';
+  position: absolute;
+  top: 50%;
+  right: 100%;
+  /* To the left of the tooltip */
+  margin-top: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: transparent black transparent transparent;
+}
+#InvestmentAccountDisclosure {
+  border: 1px solid transparent;
+}
+#InvestmentAccountDisclosure.focus {
+  border-radius: 5px;
+  border: 1px solid #4c4d4f;
+  animation-name: highlighter;
+  animation-duration: 4s;
+}
+li.account-item a.ref-disclosure {
+  display: inline;
+  padding: 0px 5px;
+}
+li.account-item a.ref-disclosure:hover {
+  text-decoration: underline;
+}
+section.disclosures {
+  border-radius: 5px;
+  margin: 15px;
+  padding: 5px;
+  grid-column-start: 1;
+  grid-column-end: 12;
+}
+section.disclosures .hidden {
+  display: none;
+}
+section.disclosures #toggleDisclosures {
+  border: 0;
+  background: none;
+  color: #0094d1;
+  cursor: pointer;
+  text-decoration: underline;
+}
+section.disclosures #toggleDisclosures:hover {
+  color: #007bad;
+}
+/* --------------------------------------------------------------- */
+

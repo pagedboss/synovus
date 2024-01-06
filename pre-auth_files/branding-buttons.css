@@ -1,0 +1,1428 @@
+/*!
+ * ExtensionVersion: 4.16.90
+ *  Mon Nov 27 2024 19:18:16 GMT+0000 (Coordinated Universal Time)
+ */
+/* Synovus Color Palette */
+/* Synovus Color Palette */
+._base-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._base-button {
+  box-shadow: none;
+  padding: 7px 15px;
+}
+._primary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._primary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #0094d1;
+  background-color: #0094d1;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 40px;
+}
+._primary-button:hover {
+  background: #0094d1;
+  background-color: #007bad;
+  color: #fff;
+}
+._primary-button:disabled {
+  background-color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+._primary-button:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+._secondary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._secondary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+._secondary-button:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+._secondary-button:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+._secondary-button:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+._tertiary-button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+._tertiary-button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+._tertiary-button:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+._tertiary-button:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+._tertiary-button:disabled {
+  color: #afafaf !important;
+}
+._tertiary-button2 {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+._tertiary-button2 {
+  box-shadow: none;
+  padding: 7px 15px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #1e1e1e;
+  border-radius: 3px;
+  color: #1e1e1e;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+._tertiary-button2:hover:not(.disabled) {
+  border: 1px solid #646464;
+  background: #fff;
+  background-color: #fff;
+  color: #646464;
+}
+._tertiary-button2:disabled {
+  color: #afafaf !important;
+  border: 1px solid #afafaf !important;
+}
+._makeItRound {
+  border-radius: 50px;
+}
+/*
+This section represents a break down of all the buttons found throughout the site.
+*/
+/*****************************************************************************\
+    PRIMARY BUTTONS WITH ICONS
+\*****************************************************************************/
+/* Alerts | Contact Preferences | Apply to All Button */
+.alert-destinations button.apply-to-all-btn,
+.create-transfer-btn,
+#PRIMARY-BUTTONS-WITH-ICONS {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.alert-destinations button.apply-to-all-btn,
+.create-transfer-btn,
+#PRIMARY-BUTTONS-WITH-ICONS {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #0094d1;
+  background-color: #0094d1;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 40px;
+}
+.alert-destinations button.apply-to-all-btn:hover,
+.create-transfer-btn:hover,
+#PRIMARY-BUTTONS-WITH-ICONS:hover {
+  background: #0094d1;
+  background-color: #007bad;
+  color: #fff;
+}
+.alert-destinations button.apply-to-all-btn:disabled,
+.create-transfer-btn:disabled,
+#PRIMARY-BUTTONS-WITH-ICONS:disabled {
+  background-color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.alert-destinations button.apply-to-all-btn:focus,
+.create-transfer-btn:focus,
+#PRIMARY-BUTTONS-WITH-ICONS:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+/*****************************************************************************\
+    PRIMARY BUTTONS WITHOUT ICONS
+\*****************************************************************************/
+/* Account | Quick Transfer | Submit | Confirm | Done */
+.done-button,
+.create-transfer-card > div > button.next-button,
+.stop-payment button.default.block,
+button.create-category-btn,
+button.manage-account-button,
+button.overdraft-save,
+button.save-transaction-btn,
+form.recipient-groups-list + button.default.block,
+.modal-action-container button.submit-one,
+#enrollment-form button.btn-submit,
+.go-paperless-prompt button.btn-submit,
+button.apply-btn,
+button.btn-send,
+button.save-btn,
+form.category-edit-form button.save-button,
+button.save-details-btn,
+button.save-contact-info-btn,
+button.update-security-questions-submit,
+button.add-offline-btn,
+button.new-message-btn,
+button.goal-intro-next-btn,
+button.enrollment-next,
+.goal-form-actions button.call-to-action,
+.d3-modal button.confirm-btn,
+.alert-selection-step button.next-btn,
+.alert-details-form button.submit-btn,
+.quick-transfer-details button.next-btn,
+.quick-transfer button.next-btn,
+.transfer-details button.next-btn,
+.transfer-validate-address button.next-btn,
+.transfer-review button.submit-btn,
+.transfer-confirmation button.done-btn,
+.login-form-content button.submit-btn,
+.quick-transfer button.submit-btn,
+.export-all-transactions-form button[type="submit"],
+.edit-accounts-list-drawer button.default.async-button,
+.stop-payment button[type="submit"],
+.manage-docs-actions button.manage-docs-next,
+button.edit-account-save-btn,
+button.account-edit-save-btn,
+button.save-recipient-btn,
+.card.select-recipient-type button.btn-submit,
+.my-goal-actions button.goal-create-button,
+.p2p-transfer-drawer button.done-btn,
+.a2a-transfer-drawer button.done-btn,
+.self-enrollment-okta-wizard button.btn-submit,
+.forgot-username-okta-wizard button.btn-submit,
+.forgot-password-okta-wizard button.btn-submit,
+.worksheet-form .fixed-container.bottom button.next-btn,
+button.pay-btn,
+.template-add-recipient button.add-recipient-btn,
+button.go-to-payments-btn,
+button.create-budget-button,
+button.dismiss-mobile-button,
+#PRIMARY-BUTTONS-WITHOUT-ICONS {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.done-button,
+.create-transfer-card > div > button.next-button,
+.stop-payment button.default.block,
+button.create-category-btn,
+button.manage-account-button,
+button.overdraft-save,
+button.save-transaction-btn,
+form.recipient-groups-list + button.default.block,
+.modal-action-container button.submit-one,
+#enrollment-form button.btn-submit,
+.go-paperless-prompt button.btn-submit,
+button.apply-btn,
+button.btn-send,
+button.save-btn,
+form.category-edit-form button.save-button,
+button.save-details-btn,
+button.save-contact-info-btn,
+button.update-security-questions-submit,
+button.add-offline-btn,
+button.new-message-btn,
+button.goal-intro-next-btn,
+button.enrollment-next,
+.goal-form-actions button.call-to-action,
+.d3-modal button.confirm-btn,
+.alert-selection-step button.next-btn,
+.alert-details-form button.submit-btn,
+.quick-transfer-details button.next-btn,
+.quick-transfer button.next-btn,
+.transfer-details button.next-btn,
+.transfer-validate-address button.next-btn,
+.transfer-review button.submit-btn,
+.transfer-confirmation button.done-btn,
+.login-form-content button.submit-btn,
+.quick-transfer button.submit-btn,
+.export-all-transactions-form button[type="submit"],
+.edit-accounts-list-drawer button.default.async-button,
+.stop-payment button[type="submit"],
+.manage-docs-actions button.manage-docs-next,
+button.edit-account-save-btn,
+button.account-edit-save-btn,
+button.save-recipient-btn,
+.card.select-recipient-type button.btn-submit,
+.my-goal-actions button.goal-create-button,
+.p2p-transfer-drawer button.done-btn,
+.a2a-transfer-drawer button.done-btn,
+.self-enrollment-okta-wizard button.btn-submit,
+.forgot-username-okta-wizard button.btn-submit,
+.forgot-password-okta-wizard button.btn-submit,
+.worksheet-form .fixed-container.bottom button.next-btn,
+button.pay-btn,
+.template-add-recipient button.add-recipient-btn,
+button.go-to-payments-btn,
+button.create-budget-button,
+button.dismiss-mobile-button,
+#PRIMARY-BUTTONS-WITHOUT-ICONS {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #0094d1;
+  background-color: #0094d1;
+  color: #fff;
+  font-size: 1rem;
+  min-height: 40px;
+}
+.done-button:hover,
+.create-transfer-card > div > button.next-button:hover,
+.stop-payment button.default.block:hover,
+button.create-category-btn:hover,
+button.manage-account-button:hover,
+button.overdraft-save:hover,
+button.save-transaction-btn:hover,
+form.recipient-groups-list + button.default.block:hover,
+.modal-action-container button.submit-one:hover,
+#enrollment-form button.btn-submit:hover,
+.go-paperless-prompt button.btn-submit:hover,
+button.apply-btn:hover,
+button.btn-send:hover,
+button.save-btn:hover,
+form.category-edit-form button.save-button:hover,
+button.save-details-btn:hover,
+button.save-contact-info-btn:hover,
+button.update-security-questions-submit:hover,
+button.add-offline-btn:hover,
+button.new-message-btn:hover,
+button.goal-intro-next-btn:hover,
+button.enrollment-next:hover,
+.goal-form-actions button.call-to-action:hover,
+.d3-modal button.confirm-btn:hover,
+.alert-selection-step button.next-btn:hover,
+.alert-details-form button.submit-btn:hover,
+.quick-transfer-details button.next-btn:hover,
+.quick-transfer button.next-btn:hover,
+.transfer-details button.next-btn:hover,
+.transfer-validate-address button.next-btn:hover,
+.transfer-review button.submit-btn:hover,
+.transfer-confirmation button.done-btn:hover,
+.login-form-content button.submit-btn:hover,
+.quick-transfer button.submit-btn:hover,
+.export-all-transactions-form button[type="submit"]:hover,
+.edit-accounts-list-drawer button.default.async-button:hover,
+.stop-payment button[type="submit"]:hover,
+.manage-docs-actions button.manage-docs-next:hover,
+button.edit-account-save-btn:hover,
+button.account-edit-save-btn:hover,
+button.save-recipient-btn:hover,
+.card.select-recipient-type button.btn-submit:hover,
+.my-goal-actions button.goal-create-button:hover,
+.p2p-transfer-drawer button.done-btn:hover,
+.a2a-transfer-drawer button.done-btn:hover,
+.self-enrollment-okta-wizard button.btn-submit:hover,
+.forgot-username-okta-wizard button.btn-submit:hover,
+.forgot-password-okta-wizard button.btn-submit:hover,
+.worksheet-form .fixed-container.bottom button.next-btn:hover,
+button.pay-btn:hover,
+.template-add-recipient button.add-recipient-btn:hover,
+button.go-to-payments-btn:hover,
+button.create-budget-button:hover,
+button.dismiss-mobile-button:hover,
+#PRIMARY-BUTTONS-WITHOUT-ICONS:hover {
+  background: #0094d1;
+  background-color: #007bad;
+  color: #fff;
+}
+.done-button:disabled,
+.create-transfer-card > div > button.next-button:disabled,
+.stop-payment button.default.block:disabled,
+button.create-category-btn:disabled,
+button.manage-account-button:disabled,
+button.overdraft-save:disabled,
+button.save-transaction-btn:disabled,
+form.recipient-groups-list + button.default.block:disabled,
+.modal-action-container button.submit-one:disabled,
+#enrollment-form button.btn-submit:disabled,
+.go-paperless-prompt button.btn-submit:disabled,
+button.apply-btn:disabled,
+button.btn-send:disabled,
+button.save-btn:disabled,
+form.category-edit-form button.save-button:disabled,
+button.save-details-btn:disabled,
+button.save-contact-info-btn:disabled,
+button.update-security-questions-submit:disabled,
+button.add-offline-btn:disabled,
+button.new-message-btn:disabled,
+button.goal-intro-next-btn:disabled,
+button.enrollment-next:disabled,
+.goal-form-actions button.call-to-action:disabled,
+.d3-modal button.confirm-btn:disabled,
+.alert-selection-step button.next-btn:disabled,
+.alert-details-form button.submit-btn:disabled,
+.quick-transfer-details button.next-btn:disabled,
+.quick-transfer button.next-btn:disabled,
+.transfer-details button.next-btn:disabled,
+.transfer-validate-address button.next-btn:disabled,
+.transfer-review button.submit-btn:disabled,
+.transfer-confirmation button.done-btn:disabled,
+.login-form-content button.submit-btn:disabled,
+.quick-transfer button.submit-btn:disabled,
+.export-all-transactions-form button[type="submit"]:disabled,
+.edit-accounts-list-drawer button.default.async-button:disabled,
+.stop-payment button[type="submit"]:disabled,
+.manage-docs-actions button.manage-docs-next:disabled,
+button.edit-account-save-btn:disabled,
+button.account-edit-save-btn:disabled,
+button.save-recipient-btn:disabled,
+.card.select-recipient-type button.btn-submit:disabled,
+.my-goal-actions button.goal-create-button:disabled,
+.p2p-transfer-drawer button.done-btn:disabled,
+.a2a-transfer-drawer button.done-btn:disabled,
+.self-enrollment-okta-wizard button.btn-submit:disabled,
+.forgot-username-okta-wizard button.btn-submit:disabled,
+.forgot-password-okta-wizard button.btn-submit:disabled,
+.worksheet-form .fixed-container.bottom button.next-btn:disabled,
+button.pay-btn:disabled,
+.template-add-recipient button.add-recipient-btn:disabled,
+button.go-to-payments-btn:disabled,
+button.create-budget-button:disabled,
+button.dismiss-mobile-button:disabled,
+#PRIMARY-BUTTONS-WITHOUT-ICONS:disabled {
+  background-color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.done-button:focus,
+.create-transfer-card > div > button.next-button:focus,
+.stop-payment button.default.block:focus,
+button.create-category-btn:focus,
+button.manage-account-button:focus,
+button.overdraft-save:focus,
+button.save-transaction-btn:focus,
+form.recipient-groups-list + button.default.block:focus,
+.modal-action-container button.submit-one:focus,
+#enrollment-form button.btn-submit:focus,
+.go-paperless-prompt button.btn-submit:focus,
+button.apply-btn:focus,
+button.btn-send:focus,
+button.save-btn:focus,
+form.category-edit-form button.save-button:focus,
+button.save-details-btn:focus,
+button.save-contact-info-btn:focus,
+button.update-security-questions-submit:focus,
+button.add-offline-btn:focus,
+button.new-message-btn:focus,
+button.goal-intro-next-btn:focus,
+button.enrollment-next:focus,
+.goal-form-actions button.call-to-action:focus,
+.d3-modal button.confirm-btn:focus,
+.alert-selection-step button.next-btn:focus,
+.alert-details-form button.submit-btn:focus,
+.quick-transfer-details button.next-btn:focus,
+.quick-transfer button.next-btn:focus,
+.transfer-details button.next-btn:focus,
+.transfer-validate-address button.next-btn:focus,
+.transfer-review button.submit-btn:focus,
+.transfer-confirmation button.done-btn:focus,
+.login-form-content button.submit-btn:focus,
+.quick-transfer button.submit-btn:focus,
+.export-all-transactions-form button[type="submit"]:focus,
+.edit-accounts-list-drawer button.default.async-button:focus,
+.stop-payment button[type="submit"]:focus,
+.manage-docs-actions button.manage-docs-next:focus,
+button.edit-account-save-btn:focus,
+button.account-edit-save-btn:focus,
+button.save-recipient-btn:focus,
+.card.select-recipient-type button.btn-submit:focus,
+.my-goal-actions button.goal-create-button:focus,
+.p2p-transfer-drawer button.done-btn:focus,
+.a2a-transfer-drawer button.done-btn:focus,
+.self-enrollment-okta-wizard button.btn-submit:focus,
+.forgot-username-okta-wizard button.btn-submit:focus,
+.forgot-password-okta-wizard button.btn-submit:focus,
+.worksheet-form .fixed-container.bottom button.next-btn:focus,
+button.pay-btn:focus,
+.template-add-recipient button.add-recipient-btn:focus,
+button.go-to-payments-btn:focus,
+button.create-budget-button:focus,
+button.dismiss-mobile-button:focus,
+#PRIMARY-BUTTONS-WITHOUT-ICONS:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+.done-button svg,
+.create-transfer-card > div > button.next-button svg,
+.stop-payment button.default.block svg,
+button.create-category-btn svg,
+button.manage-account-button svg,
+button.overdraft-save svg,
+button.save-transaction-btn svg,
+form.recipient-groups-list + button.default.block svg,
+.modal-action-container button.submit-one svg,
+#enrollment-form button.btn-submit svg,
+.go-paperless-prompt button.btn-submit svg,
+button.apply-btn svg,
+button.btn-send svg,
+button.save-btn svg,
+form.category-edit-form button.save-button svg,
+button.save-details-btn svg,
+button.save-contact-info-btn svg,
+button.update-security-questions-submit svg,
+button.add-offline-btn svg,
+button.new-message-btn svg,
+button.goal-intro-next-btn svg,
+button.enrollment-next svg,
+.goal-form-actions button.call-to-action svg,
+.d3-modal button.confirm-btn svg,
+.alert-selection-step button.next-btn svg,
+.alert-details-form button.submit-btn svg,
+.quick-transfer-details button.next-btn svg,
+.quick-transfer button.next-btn svg,
+.transfer-details button.next-btn svg,
+.transfer-validate-address button.next-btn svg,
+.transfer-review button.submit-btn svg,
+.transfer-confirmation button.done-btn svg,
+.login-form-content button.submit-btn svg,
+.quick-transfer button.submit-btn svg,
+.export-all-transactions-form button[type="submit"] svg,
+.edit-accounts-list-drawer button.default.async-button svg,
+.stop-payment button[type="submit"] svg,
+.manage-docs-actions button.manage-docs-next svg,
+button.edit-account-save-btn svg,
+button.account-edit-save-btn svg,
+button.save-recipient-btn svg,
+.card.select-recipient-type button.btn-submit svg,
+.my-goal-actions button.goal-create-button svg,
+.p2p-transfer-drawer button.done-btn svg,
+.a2a-transfer-drawer button.done-btn svg,
+.self-enrollment-okta-wizard button.btn-submit svg,
+.forgot-username-okta-wizard button.btn-submit svg,
+.forgot-password-okta-wizard button.btn-submit svg,
+.worksheet-form .fixed-container.bottom button.next-btn svg,
+button.pay-btn svg,
+.template-add-recipient button.add-recipient-btn svg,
+button.go-to-payments-btn svg,
+button.create-budget-button svg,
+button.dismiss-mobile-button svg,
+#PRIMARY-BUTTONS-WITHOUT-ICONS svg {
+  display: none;
+}
+/*****************************************************************************\
+    SECONDARY BUTTONS WITH ICONS
+\*****************************************************************************/
+/*****************************************************************************\
+    SECONDARY BUTTONS WITHOUT ICONS
+\*****************************************************************************/
+button.quick-transfer-cancel-button,
+button.cancel-button,
+button.cancel-btn,
+button.clear-btn,
+button.reset-btn,
+button.cancel-create-btn,
+button.download-disclosure,
+button.add-account-btn,
+button.swal2-cancel,
+button.quick-payment-cancel-button,
+button.clear-all-btn,
+button.restart-btn,
+button.go-paperless-button,
+.new-message-form button.btn-cancel,
+.add-offline-account button.outlined,
+.modal-action-container button.cancel,
+.modal-footer button.cancel,
+.transfer-review .actions button.back-btn,
+#enrollment-form button.btn-cancel,
+.message-reply-form button.btn-cancel,
+button.manage-docs-cancel,
+.update-display-name-form button.outlined.default,
+.export-all-transactions-form button.default,
+.edit-accounts-list-drawer button.default.outlined,
+button.delete-account-btn,
+button.edit-account-cancel-btn,
+button.account-edit-cancel-btn,
+button.enrollment-cancel,
+.go-paperless-prompt button.btn-ignore,
+.transfers-schedule .create-transfer button.restart-btn,
+.self-enrollment-okta-wizard button.btn-cancel,
+.forgot-username-okta-wizard button.btn-cancel,
+.forgot-password-okta-wizard button.btn-cancel,
+.account-details button.edocs-button,
+button#AddExternalAccountBtn,
+#SECONDARY-BUTTONS {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+button.quick-transfer-cancel-button,
+button.cancel-button,
+button.cancel-btn,
+button.clear-btn,
+button.reset-btn,
+button.cancel-create-btn,
+button.download-disclosure,
+button.add-account-btn,
+button.swal2-cancel,
+button.quick-payment-cancel-button,
+button.clear-all-btn,
+button.restart-btn,
+button.go-paperless-button,
+.new-message-form button.btn-cancel,
+.add-offline-account button.outlined,
+.modal-action-container button.cancel,
+.modal-footer button.cancel,
+.transfer-review .actions button.back-btn,
+#enrollment-form button.btn-cancel,
+.message-reply-form button.btn-cancel,
+button.manage-docs-cancel,
+.update-display-name-form button.outlined.default,
+.export-all-transactions-form button.default,
+.edit-accounts-list-drawer button.default.outlined,
+button.delete-account-btn,
+button.edit-account-cancel-btn,
+button.account-edit-cancel-btn,
+button.enrollment-cancel,
+.go-paperless-prompt button.btn-ignore,
+.transfers-schedule .create-transfer button.restart-btn,
+.self-enrollment-okta-wizard button.btn-cancel,
+.forgot-username-okta-wizard button.btn-cancel,
+.forgot-password-okta-wizard button.btn-cancel,
+.account-details button.edocs-button,
+button#AddExternalAccountBtn,
+#SECONDARY-BUTTONS {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+button.quick-transfer-cancel-button:hover,
+button.cancel-button:hover,
+button.cancel-btn:hover,
+button.clear-btn:hover,
+button.reset-btn:hover,
+button.cancel-create-btn:hover,
+button.download-disclosure:hover,
+button.add-account-btn:hover,
+button.swal2-cancel:hover,
+button.quick-payment-cancel-button:hover,
+button.clear-all-btn:hover,
+button.restart-btn:hover,
+button.go-paperless-button:hover,
+.new-message-form button.btn-cancel:hover,
+.add-offline-account button.outlined:hover,
+.modal-action-container button.cancel:hover,
+.modal-footer button.cancel:hover,
+.transfer-review .actions button.back-btn:hover,
+#enrollment-form button.btn-cancel:hover,
+.message-reply-form button.btn-cancel:hover,
+button.manage-docs-cancel:hover,
+.update-display-name-form button.outlined.default:hover,
+.export-all-transactions-form button.default:hover,
+.edit-accounts-list-drawer button.default.outlined:hover,
+button.delete-account-btn:hover,
+button.edit-account-cancel-btn:hover,
+button.account-edit-cancel-btn:hover,
+button.enrollment-cancel:hover,
+.go-paperless-prompt button.btn-ignore:hover,
+.transfers-schedule .create-transfer button.restart-btn:hover,
+.self-enrollment-okta-wizard button.btn-cancel:hover,
+.forgot-username-okta-wizard button.btn-cancel:hover,
+.forgot-password-okta-wizard button.btn-cancel:hover,
+.account-details button.edocs-button:hover,
+button#AddExternalAccountBtn:hover,
+#SECONDARY-BUTTONS:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+button.quick-transfer-cancel-button:disabled,
+button.cancel-button:disabled,
+button.cancel-btn:disabled,
+button.clear-btn:disabled,
+button.reset-btn:disabled,
+button.cancel-create-btn:disabled,
+button.download-disclosure:disabled,
+button.add-account-btn:disabled,
+button.swal2-cancel:disabled,
+button.quick-payment-cancel-button:disabled,
+button.clear-all-btn:disabled,
+button.restart-btn:disabled,
+button.go-paperless-button:disabled,
+.new-message-form button.btn-cancel:disabled,
+.add-offline-account button.outlined:disabled,
+.modal-action-container button.cancel:disabled,
+.modal-footer button.cancel:disabled,
+.transfer-review .actions button.back-btn:disabled,
+#enrollment-form button.btn-cancel:disabled,
+.message-reply-form button.btn-cancel:disabled,
+button.manage-docs-cancel:disabled,
+.update-display-name-form button.outlined.default:disabled,
+.export-all-transactions-form button.default:disabled,
+.edit-accounts-list-drawer button.default.outlined:disabled,
+button.delete-account-btn:disabled,
+button.edit-account-cancel-btn:disabled,
+button.account-edit-cancel-btn:disabled,
+button.enrollment-cancel:disabled,
+.go-paperless-prompt button.btn-ignore:disabled,
+.transfers-schedule .create-transfer button.restart-btn:disabled,
+.self-enrollment-okta-wizard button.btn-cancel:disabled,
+.forgot-username-okta-wizard button.btn-cancel:disabled,
+.forgot-password-okta-wizard button.btn-cancel:disabled,
+.account-details button.edocs-button:disabled,
+button#AddExternalAccountBtn:disabled,
+#SECONDARY-BUTTONS:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+button.quick-transfer-cancel-button:focus,
+button.cancel-button:focus,
+button.cancel-btn:focus,
+button.clear-btn:focus,
+button.reset-btn:focus,
+button.cancel-create-btn:focus,
+button.download-disclosure:focus,
+button.add-account-btn:focus,
+button.swal2-cancel:focus,
+button.quick-payment-cancel-button:focus,
+button.clear-all-btn:focus,
+button.restart-btn:focus,
+button.go-paperless-button:focus,
+.new-message-form button.btn-cancel:focus,
+.add-offline-account button.outlined:focus,
+.modal-action-container button.cancel:focus,
+.modal-footer button.cancel:focus,
+.transfer-review .actions button.back-btn:focus,
+#enrollment-form button.btn-cancel:focus,
+.message-reply-form button.btn-cancel:focus,
+button.manage-docs-cancel:focus,
+.update-display-name-form button.outlined.default:focus,
+.export-all-transactions-form button.default:focus,
+.edit-accounts-list-drawer button.default.outlined:focus,
+button.delete-account-btn:focus,
+button.edit-account-cancel-btn:focus,
+button.account-edit-cancel-btn:focus,
+button.enrollment-cancel:focus,
+.go-paperless-prompt button.btn-ignore:focus,
+.transfers-schedule .create-transfer button.restart-btn:focus,
+.self-enrollment-okta-wizard button.btn-cancel:focus,
+.forgot-username-okta-wizard button.btn-cancel:focus,
+.forgot-password-okta-wizard button.btn-cancel:focus,
+.account-details button.edocs-button:focus,
+button#AddExternalAccountBtn:focus,
+#SECONDARY-BUTTONS:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+button.quick-transfer-cancel-button svg,
+button.cancel-button svg,
+button.cancel-btn svg,
+button.clear-btn svg,
+button.reset-btn svg,
+button.cancel-create-btn svg,
+button.download-disclosure svg,
+button.add-account-btn svg,
+button.swal2-cancel svg,
+button.quick-payment-cancel-button svg,
+button.clear-all-btn svg,
+button.restart-btn svg,
+button.go-paperless-button svg,
+.new-message-form button.btn-cancel svg,
+.add-offline-account button.outlined svg,
+.modal-action-container button.cancel svg,
+.modal-footer button.cancel svg,
+.transfer-review .actions button.back-btn svg,
+#enrollment-form button.btn-cancel svg,
+.message-reply-form button.btn-cancel svg,
+button.manage-docs-cancel svg,
+.update-display-name-form button.outlined.default svg,
+.export-all-transactions-form button.default svg,
+.edit-accounts-list-drawer button.default.outlined svg,
+button.delete-account-btn svg,
+button.edit-account-cancel-btn svg,
+button.account-edit-cancel-btn svg,
+button.enrollment-cancel svg,
+.go-paperless-prompt button.btn-ignore svg,
+.transfers-schedule .create-transfer button.restart-btn svg,
+.self-enrollment-okta-wizard button.btn-cancel svg,
+.forgot-username-okta-wizard button.btn-cancel svg,
+.forgot-password-okta-wizard button.btn-cancel svg,
+.account-details button.edocs-button svg,
+button#AddExternalAccountBtn svg,
+#SECONDARY-BUTTONS svg {
+  display: none;
+}
+/*****************************************************************************\
+    TERTIARY BUTTONS WITH ICONS
+\*****************************************************************************/
+button.advanced-search-btn,
+button.adv-search-button,
+button.account-options-button,
+button.edit-transfer-btn,
+button.edocs-download-btn,
+button.manage-alerts-btn,
+button.advanced-options-btn,
+button.account-action-btn,
+button.export-transactions,
+button.edocs-view-btn,
+button.view-details-btn,
+button.add-to-group-btn,
+.transfer-detail-attributes button.toggle-transfer-details-btn,
+button.contact-preferences,
+button.back-to-alerts-btn,
+button.change-group-btn,
+button.apply-to-all-btn,
+.template-action-btns button.save-btn,
+button.download-details-btn,
+button.delete-budget-button,
+button.reset-budget-button,
+button.export-budget-button,
+button.transaction-download-button,
+#TERTIARY-BUTTONS-WITH-ICON {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+button.advanced-search-btn,
+button.adv-search-button,
+button.account-options-button,
+button.edit-transfer-btn,
+button.edocs-download-btn,
+button.manage-alerts-btn,
+button.advanced-options-btn,
+button.account-action-btn,
+button.export-transactions,
+button.edocs-view-btn,
+button.view-details-btn,
+button.add-to-group-btn,
+.transfer-detail-attributes button.toggle-transfer-details-btn,
+button.contact-preferences,
+button.back-to-alerts-btn,
+button.change-group-btn,
+button.apply-to-all-btn,
+.template-action-btns button.save-btn,
+button.download-details-btn,
+button.delete-budget-button,
+button.reset-budget-button,
+button.export-budget-button,
+button.transaction-download-button,
+#TERTIARY-BUTTONS-WITH-ICON {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+button.advanced-search-btn:hover:not(.disabled),
+button.adv-search-button:hover:not(.disabled),
+button.account-options-button:hover:not(.disabled),
+button.edit-transfer-btn:hover:not(.disabled),
+button.edocs-download-btn:hover:not(.disabled),
+button.manage-alerts-btn:hover:not(.disabled),
+button.advanced-options-btn:hover:not(.disabled),
+button.account-action-btn:hover:not(.disabled),
+button.export-transactions:hover:not(.disabled),
+button.edocs-view-btn:hover:not(.disabled),
+button.view-details-btn:hover:not(.disabled),
+button.add-to-group-btn:hover:not(.disabled),
+.transfer-detail-attributes button.toggle-transfer-details-btn:hover:not(.disabled),
+button.contact-preferences:hover:not(.disabled),
+button.back-to-alerts-btn:hover:not(.disabled),
+button.change-group-btn:hover:not(.disabled),
+button.apply-to-all-btn:hover:not(.disabled),
+.template-action-btns button.save-btn:hover:not(.disabled),
+button.download-details-btn:hover:not(.disabled),
+button.delete-budget-button:hover:not(.disabled),
+button.reset-budget-button:hover:not(.disabled),
+button.export-budget-button:hover:not(.disabled),
+button.transaction-download-button:hover:not(.disabled),
+#TERTIARY-BUTTONS-WITH-ICON:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+button.advanced-search-btn:active,
+button.adv-search-button:active,
+button.account-options-button:active,
+button.edit-transfer-btn:active,
+button.edocs-download-btn:active,
+button.manage-alerts-btn:active,
+button.advanced-options-btn:active,
+button.account-action-btn:active,
+button.export-transactions:active,
+button.edocs-view-btn:active,
+button.view-details-btn:active,
+button.add-to-group-btn:active,
+.transfer-detail-attributes button.toggle-transfer-details-btn:active,
+button.contact-preferences:active,
+button.back-to-alerts-btn:active,
+button.change-group-btn:active,
+button.apply-to-all-btn:active,
+.template-action-btns button.save-btn:active,
+button.download-details-btn:active,
+button.delete-budget-button:active,
+button.reset-budget-button:active,
+button.export-budget-button:active,
+button.transaction-download-button:active,
+#TERTIARY-BUTTONS-WITH-ICON:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+button.advanced-search-btn:disabled,
+button.adv-search-button:disabled,
+button.account-options-button:disabled,
+button.edit-transfer-btn:disabled,
+button.edocs-download-btn:disabled,
+button.manage-alerts-btn:disabled,
+button.advanced-options-btn:disabled,
+button.account-action-btn:disabled,
+button.export-transactions:disabled,
+button.edocs-view-btn:disabled,
+button.view-details-btn:disabled,
+button.add-to-group-btn:disabled,
+.transfer-detail-attributes button.toggle-transfer-details-btn:disabled,
+button.contact-preferences:disabled,
+button.back-to-alerts-btn:disabled,
+button.change-group-btn:disabled,
+button.apply-to-all-btn:disabled,
+.template-action-btns button.save-btn:disabled,
+button.download-details-btn:disabled,
+button.delete-budget-button:disabled,
+button.reset-budget-button:disabled,
+button.export-budget-button:disabled,
+button.transaction-download-button:disabled,
+#TERTIARY-BUTTONS-WITH-ICON:disabled {
+  color: #afafaf !important;
+}
+/*****************************************************************************\
+    TERTIARY BUTTONS WITHOUT ICONS
+\*****************************************************************************/
+button.load-more-btn,
+.account-action-btn-container button.add-offline-transaction-button,
+button.enroll-button,
+button.search-action-cancel-btn,
+button.search-action-submit-btn,
+button.cancel-download-btn,
+button.download-transactions-btn,
+.transaction-split-list button.outlined,
+.wizard-step button.outlined:not(.icon-button),
+.account-actions button.primary,
+button.toggle-disclosure-btn,
+button.recipient-detail-delete-button,
+button.btn-close,
+button.btn-delete,
+button.btn-reply,
+button.btn-new-message,
+button.btn-mark-as-read,
+button.delete-alert-btn,
+button.manage-alert-btn,
+button.recipient-group-hide-btn,
+button.recipient-group-delete-btn,
+button.recipient-group-name-form-save-button,
+button.recipient-detail-ebills-auto-pay-button,
+button.recipient-detail-ebills-deactivate-button,
+#enrollment-form button.btn-print,
+button.add-email-btn,
+button.add-number-btn,
+button.edit-btn,
+button.update-display-name-button,
+button.update-contact-info-button,
+button.update-username-button,
+button.update-password-button,
+button.update-questions-button,
+button.reset-mfa-button,
+button.remove-device-btn,
+button.device-edit-close-btn,
+button.category-edit-button,
+.my-goal-actions button.view-all-goals-btn,
+#company-search button.search-btn,
+.pay-multiple-mobile button.clear-btn,
+button.view-all-accounts-btn,
+#TERTIARY-BUTTONS-WITHOUT-ICON {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+button.load-more-btn,
+.account-action-btn-container button.add-offline-transaction-button,
+button.enroll-button,
+button.search-action-cancel-btn,
+button.search-action-submit-btn,
+button.cancel-download-btn,
+button.download-transactions-btn,
+.transaction-split-list button.outlined,
+.wizard-step button.outlined:not(.icon-button),
+.account-actions button.primary,
+button.toggle-disclosure-btn,
+button.recipient-detail-delete-button,
+button.btn-close,
+button.btn-delete,
+button.btn-reply,
+button.btn-new-message,
+button.btn-mark-as-read,
+button.delete-alert-btn,
+button.manage-alert-btn,
+button.recipient-group-hide-btn,
+button.recipient-group-delete-btn,
+button.recipient-group-name-form-save-button,
+button.recipient-detail-ebills-auto-pay-button,
+button.recipient-detail-ebills-deactivate-button,
+#enrollment-form button.btn-print,
+button.add-email-btn,
+button.add-number-btn,
+button.edit-btn,
+button.update-display-name-button,
+button.update-contact-info-button,
+button.update-username-button,
+button.update-password-button,
+button.update-questions-button,
+button.reset-mfa-button,
+button.remove-device-btn,
+button.device-edit-close-btn,
+button.category-edit-button,
+.my-goal-actions button.view-all-goals-btn,
+#company-search button.search-btn,
+.pay-multiple-mobile button.clear-btn,
+button.view-all-accounts-btn,
+#TERTIARY-BUTTONS-WITHOUT-ICON {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+button.load-more-btn:hover:not(.disabled),
+.account-action-btn-container button.add-offline-transaction-button:hover:not(.disabled),
+button.enroll-button:hover:not(.disabled),
+button.search-action-cancel-btn:hover:not(.disabled),
+button.search-action-submit-btn:hover:not(.disabled),
+button.cancel-download-btn:hover:not(.disabled),
+button.download-transactions-btn:hover:not(.disabled),
+.transaction-split-list button.outlined:hover:not(.disabled),
+.wizard-step button.outlined:not(.icon-button):hover:not(.disabled),
+.account-actions button.primary:hover:not(.disabled),
+button.toggle-disclosure-btn:hover:not(.disabled),
+button.recipient-detail-delete-button:hover:not(.disabled),
+button.btn-close:hover:not(.disabled),
+button.btn-delete:hover:not(.disabled),
+button.btn-reply:hover:not(.disabled),
+button.btn-new-message:hover:not(.disabled),
+button.btn-mark-as-read:hover:not(.disabled),
+button.delete-alert-btn:hover:not(.disabled),
+button.manage-alert-btn:hover:not(.disabled),
+button.recipient-group-hide-btn:hover:not(.disabled),
+button.recipient-group-delete-btn:hover:not(.disabled),
+button.recipient-group-name-form-save-button:hover:not(.disabled),
+button.recipient-detail-ebills-auto-pay-button:hover:not(.disabled),
+button.recipient-detail-ebills-deactivate-button:hover:not(.disabled),
+#enrollment-form button.btn-print:hover:not(.disabled),
+button.add-email-btn:hover:not(.disabled),
+button.add-number-btn:hover:not(.disabled),
+button.edit-btn:hover:not(.disabled),
+button.update-display-name-button:hover:not(.disabled),
+button.update-contact-info-button:hover:not(.disabled),
+button.update-username-button:hover:not(.disabled),
+button.update-password-button:hover:not(.disabled),
+button.update-questions-button:hover:not(.disabled),
+button.reset-mfa-button:hover:not(.disabled),
+button.remove-device-btn:hover:not(.disabled),
+button.device-edit-close-btn:hover:not(.disabled),
+button.category-edit-button:hover:not(.disabled),
+.my-goal-actions button.view-all-goals-btn:hover:not(.disabled),
+#company-search button.search-btn:hover:not(.disabled),
+.pay-multiple-mobile button.clear-btn:hover:not(.disabled),
+button.view-all-accounts-btn:hover:not(.disabled),
+#TERTIARY-BUTTONS-WITHOUT-ICON:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+button.load-more-btn:active,
+.account-action-btn-container button.add-offline-transaction-button:active,
+button.enroll-button:active,
+button.search-action-cancel-btn:active,
+button.search-action-submit-btn:active,
+button.cancel-download-btn:active,
+button.download-transactions-btn:active,
+.transaction-split-list button.outlined:active,
+.wizard-step button.outlined:not(.icon-button):active,
+.account-actions button.primary:active,
+button.toggle-disclosure-btn:active,
+button.recipient-detail-delete-button:active,
+button.btn-close:active,
+button.btn-delete:active,
+button.btn-reply:active,
+button.btn-new-message:active,
+button.btn-mark-as-read:active,
+button.delete-alert-btn:active,
+button.manage-alert-btn:active,
+button.recipient-group-hide-btn:active,
+button.recipient-group-delete-btn:active,
+button.recipient-group-name-form-save-button:active,
+button.recipient-detail-ebills-auto-pay-button:active,
+button.recipient-detail-ebills-deactivate-button:active,
+#enrollment-form button.btn-print:active,
+button.add-email-btn:active,
+button.add-number-btn:active,
+button.edit-btn:active,
+button.update-display-name-button:active,
+button.update-contact-info-button:active,
+button.update-username-button:active,
+button.update-password-button:active,
+button.update-questions-button:active,
+button.reset-mfa-button:active,
+button.remove-device-btn:active,
+button.device-edit-close-btn:active,
+button.category-edit-button:active,
+.my-goal-actions button.view-all-goals-btn:active,
+#company-search button.search-btn:active,
+.pay-multiple-mobile button.clear-btn:active,
+button.view-all-accounts-btn:active,
+#TERTIARY-BUTTONS-WITHOUT-ICON:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+button.load-more-btn:disabled,
+.account-action-btn-container button.add-offline-transaction-button:disabled,
+button.enroll-button:disabled,
+button.search-action-cancel-btn:disabled,
+button.search-action-submit-btn:disabled,
+button.cancel-download-btn:disabled,
+button.download-transactions-btn:disabled,
+.transaction-split-list button.outlined:disabled,
+.wizard-step button.outlined:not(.icon-button):disabled,
+.account-actions button.primary:disabled,
+button.toggle-disclosure-btn:disabled,
+button.recipient-detail-delete-button:disabled,
+button.btn-close:disabled,
+button.btn-delete:disabled,
+button.btn-reply:disabled,
+button.btn-new-message:disabled,
+button.btn-mark-as-read:disabled,
+button.delete-alert-btn:disabled,
+button.manage-alert-btn:disabled,
+button.recipient-group-hide-btn:disabled,
+button.recipient-group-delete-btn:disabled,
+button.recipient-group-name-form-save-button:disabled,
+button.recipient-detail-ebills-auto-pay-button:disabled,
+button.recipient-detail-ebills-deactivate-button:disabled,
+#enrollment-form button.btn-print:disabled,
+button.add-email-btn:disabled,
+button.add-number-btn:disabled,
+button.edit-btn:disabled,
+button.update-display-name-button:disabled,
+button.update-contact-info-button:disabled,
+button.update-username-button:disabled,
+button.update-password-button:disabled,
+button.update-questions-button:disabled,
+button.reset-mfa-button:disabled,
+button.remove-device-btn:disabled,
+button.device-edit-close-btn:disabled,
+button.category-edit-button:disabled,
+.my-goal-actions button.view-all-goals-btn:disabled,
+#company-search button.search-btn:disabled,
+.pay-multiple-mobile button.clear-btn:disabled,
+button.view-all-accounts-btn:disabled,
+#TERTIARY-BUTTONS-WITHOUT-ICON:disabled {
+  color: #afafaf !important;
+}
+button.load-more-btn svg,
+.account-action-btn-container button.add-offline-transaction-button svg,
+button.enroll-button svg,
+button.search-action-cancel-btn svg,
+button.search-action-submit-btn svg,
+button.cancel-download-btn svg,
+button.download-transactions-btn svg,
+.transaction-split-list button.outlined svg,
+.wizard-step button.outlined:not(.icon-button) svg,
+.account-actions button.primary svg,
+button.toggle-disclosure-btn svg,
+button.recipient-detail-delete-button svg,
+button.btn-close svg,
+button.btn-delete svg,
+button.btn-reply svg,
+button.btn-new-message svg,
+button.btn-mark-as-read svg,
+button.delete-alert-btn svg,
+button.manage-alert-btn svg,
+button.recipient-group-hide-btn svg,
+button.recipient-group-delete-btn svg,
+button.recipient-group-name-form-save-button svg,
+button.recipient-detail-ebills-auto-pay-button svg,
+button.recipient-detail-ebills-deactivate-button svg,
+#enrollment-form button.btn-print svg,
+button.add-email-btn svg,
+button.add-number-btn svg,
+button.edit-btn svg,
+button.update-display-name-button svg,
+button.update-contact-info-button svg,
+button.update-username-button svg,
+button.update-password-button svg,
+button.update-questions-button svg,
+button.reset-mfa-button svg,
+button.remove-device-btn svg,
+button.device-edit-close-btn svg,
+button.category-edit-button svg,
+.my-goal-actions button.view-all-goals-btn svg,
+#company-search button.search-btn svg,
+.pay-multiple-mobile button.clear-btn svg,
+button.view-all-accounts-btn svg,
+#TERTIARY-BUTTONS-WITHOUT-ICON svg {
+  display: none;
+}
+/*****************************************************************************\
+    MISC BUTTON UPDATES
+    Let's try and clean this section up...
+\*****************************************************************************/
+button.manual-entry-btn {
+  color: #007bad !important;
+}
+/* #post-auth - Go Paperless */
+.go-paperless-prompt button.btn-submit {
+  white-space: pre-wrap;
+}
+button.btn-mfa-back,
+button.resend-oob {
+  color: #4c4d4f !important;
+}
+.payment-tools .template-action-btns button.save-as-btn {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+.payment-tools .template-action-btns button.save-as-btn {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+.payment-tools .template-action-btns button.save-as-btn:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+.payment-tools .template-action-btns button.save-as-btn:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+.payment-tools .template-action-btns button.save-as-btn:disabled {
+  color: #afafaf !important;
+}
+.stop-payment .pills button {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+}
+.stop-payment .pills button {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+  margin: 0 10px;
+}
+.stop-payment .pills button:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+.stop-payment .pills button:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+.stop-payment .pills button:disabled {
+  color: #afafaf !important;
+}
+.view-transaction-images button.view-images-btn {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  background-color: transparent !important;
+  border: 0px solid transparent !important;
+  color: #007bad !important;
+  padding-left: 15px !important;
+  padding-right: 15px !important;
+}
+.view-transaction-images button.view-images-btn {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 3px;
+  font-size: 0.875rem;
+  min-height: 40px;
+}
+.view-transaction-images button.view-images-btn:hover:not(.disabled) {
+  background: rgba(187, 187, 187, 0.2) !important;
+  background-color: rgba(187, 187, 187, 0.2) !important;
+}
+.view-transaction-images button.view-images-btn:active {
+  background: rgba(0, 123, 173, 0.2) !important;
+  background-color: rgba(0, 123, 173, 0.2) !important;
+}
+.view-transaction-images button.view-images-btn:disabled {
+  color: #afafaf !important;
+}
+.quick-transfer button.cancel-btn {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.quick-transfer button.cancel-btn {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+.quick-transfer button.cancel-btn:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+.quick-transfer button.cancel-btn:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.quick-transfer button.cancel-btn:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+.transfers-schedule .transfer-details button.clear-btn {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.transfers-schedule .transfer-details button.clear-btn {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+.transfers-schedule .transfer-details button.clear-btn:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+.transfers-schedule .transfer-details button.clear-btn:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.transfers-schedule .transfer-details button.clear-btn:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+.accounts-ddd-documents-enrollment-go-paperless button.enrollment-cancel {
+  font-family: proxima-nova, Montserrat !important;
+  font-weight: normal !important;
+  font-style: normal !important;
+  font-stretch: normal !important;
+  box-shadow: none !important;
+}
+.accounts-ddd-documents-enrollment-go-paperless button.enrollment-cancel {
+  box-shadow: none;
+  padding: 7px 15px;
+  border-radius: 50px;
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #0094d1;
+  color: #0094d1;
+  font-size: 1rem;
+  min-height: 40px;
+}
+.accounts-ddd-documents-enrollment-go-paperless button.enrollment-cancel:hover {
+  background: #fff;
+  background-color: #fff;
+  border: 1px solid #007bad;
+  color: #007bad;
+}
+.accounts-ddd-documents-enrollment-go-paperless button.enrollment-cancel:disabled {
+  color: #83bbd3;
+  border: 1px solid #83bbd3;
+}
+.accounts-ddd-documents-enrollment-go-paperless button.enrollment-cancel:focus {
+  outline: none !important;
+  box-shadow: 0px 0px 3px 0px #0094d1 !important;
+}
+

@@ -1,0 +1,101 @@
+html.mobile .d3-personetics-mobile-container .d3-personetics-story-content {
+  height: 100vh; }
+
+html:not(.mobile) body[class*='route__insights'] .d3-personetics-story-content {
+  height: 700px; }
+
+/* ==========================================================================
+  Insights button on accounts overview page, mobile only
+========================================================================== */
+.quick-actions-container {
+  display: flex;
+  align-items: flex-start; }
+
+.quick-actions-container > * {
+  width: 100%; }
+
+#d3-personetics-insights-widget-button-container {
+  margin-left: 10px; }
+
+.quick-actions-container .quick-actions-widget .widget-icon {
+  width: 28px; }
+  .quick-actions-container .quick-actions-widget .widget-icon svg {
+    width: 100% !important; }
+
+.quick-actions-container .quick-actions-widget .widget-header {
+  padding: 2px 1rem !important; }
+
+.quick-actions-container .widget-title {
+  font-size: 16px; }
+
+.quick-actions-container .widget-header {
+  flex-direction: row-reverse; }
+
+.quick-actions-container .widget-header .widget-title {
+  padding-left: 0;
+  padding-right: 20px;
+  width: 100%;
+  display: block; }
+
+.personetics-insights-widget {
+  background-color: #ffffff;
+  color: #0094d1; }
+
+.personetics-insights-widget:hover {
+  border-left: 0 !important; }
+
+.personetics-insights-widget-header {
+  border: 2px solid #0094d1;
+  padding: 0 1rem !important; }
+
+.personetics-insights-widget,
+.personetics-insights-widget-header {
+  border-radius: 0.1875rem; }
+
+/* Adjust layout to make Personetics fit on iPad */
+.portrait.ipad body[class*='route__accounts-overview'].has-personetics .chakra-container.split-layout {
+  margin: 0 auto;
+  min-width: 96%; }
+
+.portrait.ipad body[class*='route__accounts-overview'].has-personetics .split-layout-column.content-column {
+  padding-left: 15px;
+  padding-right: 12px;
+  grid-column: span 6 / span 6; }
+
+.portrait.ipad body[class*='route__accounts-overview'].has-personetics .split-layout-column.sidebar-column {
+  padding-left: 12px;
+  padding-right: 15px;
+  grid-column: span 6 / span 6; }
+
+.portrait.ipad body[class*='route__insights'].has-personetics .d3-personetics-story-content {
+  height: 640px; }
+
+.portrait.ipad body[class*='route__insights'].has-personetics .chakra-container.personetics-insights-story-page {
+  margin: 0;
+  width: 100%;
+  max-width: 100%; }
+
+.portrait.ipad body[class*='route__insights'].has-personetics .split-layout-column.content-column {
+  padding-left: 10px;
+  padding-right: 10px; }
+  .portrait.ipad body[class*='route__insights'].has-personetics .split-layout-column.content-column .chakra-container {
+    margin: 0;
+    width: 100%;
+    max-width: 100%; }
+
+.landscape.ipad body[class*='route__insights'].has-personetics .d3-personetics-story-content {
+  height: 570px; }
+
+.landscape.ipad body[class*='route__accounts-overview'].has-personetics .split-layout-column.content-column {
+  grid-column: span 7 / span 7; }
+
+.landscape.ipad body[class*='route__accounts-overview'].has-personetics .split-layout-column.sidebar-column {
+  grid-column: span 5 / span 5; }
+
+/* 01/09/2024 - the following were bug fixes figured out during a working session with Personetics */
+.d3-personetics-content {
+  box-sizing: initial; }
+
+.d3-personetics-story-content *,
+.d3-personetics-content * {
+  box-sizing: initial; }
